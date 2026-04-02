@@ -1,6 +1,6 @@
 # 🐋 Mempool Monitor
 
-A Rust daemon that monitors Ethereum's pending transaction pool (mempool) via WebSockets to detect large-value transfers in real time.
+A specialized monitoring tool that peers into the Ethereum txpool to analyze pending transactions before they are mined. It captures critical data like gas prices and target contracts, providing a competitive edge for researchers. Its low-latency architecture ensures high-fidelity data capture, which is vital for real-time network analysis.
 
 ## Features
 
